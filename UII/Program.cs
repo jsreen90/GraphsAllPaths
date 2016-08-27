@@ -16,7 +16,7 @@ namespace UII
         {
             Application oexcel = new Application();
             //Workbook owb = oexcel.Workbooks.Open(@"E:\DataStructure\DS_BG_1_0.xlsx");
-            Workbook owb = oexcel.Workbooks.Open(@"E:\DataStructure\DS_sample1_simple.xlsx");
+            Workbook owb = oexcel.Workbooks.Open(@"E:\DataStructure\DS_sample1_simple1.xlsx");
             // Workbook owb = oexcel.Workbooks.Open(@"E:\DataStructure\DS_OD.xlsx");
             Worksheet ows = owb.Sheets[1];
             List<Node> NodeList = new List<Node>();
